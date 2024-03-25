@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+   
+    width: 100%;
+    height: 70px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid;
+   }
+
+   nav ul li{
+    border: 1px solid;
+    border-radius: 10px;
+   }
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+.logonav{
+    width: auto;
+    height: 70px;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.cerveza_h1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.cerveza_alquiler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cerveza_alquiler h2{
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+.cerveza_alquiler p{
+    padding: 0 10px;
+    font-weight: 500;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 75px;
+   padding: 0 20px 0 0;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+/* LOCALES */
+
+.locales-title{
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+.main-locales{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.main-locales img{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-locales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.text-locales h2{
+    padding: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.grid-item img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.google-map{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media (max-width: 550px){
+
+    nav ul{
+        display: inline-block;
+        border: none;
+        
+
+    }
+
+}
