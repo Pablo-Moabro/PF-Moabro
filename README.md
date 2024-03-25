@@ -1,2 +1,4 @@
 # PreEntrega2-Moabro
-hola, como funciona esto? lo que escribo despues se ve en el readme en github? supongo que es asi la cosa no?
+Paginas realizadas para la pre entrega: index (home) y locales. 
+Las otras paginas tienen estructura pero estan sin css. Se que estan feas visualmente, espero mas adelante hacer algo mas lindo. Me concentre en aplicar los css, el grid de css en la galeria de imagines en la página de locales y en que sea responsive. La verdad me costo bastante ponerme a tiro despues de la operacion, espero cumplir con las consigna. No me quedo claro si era obligatorio usar bootstrap, espero que no.
+No logro entender por que me dejan de andar el nav cuando pasa a mobile y por que se oculta detras de las fotos.
