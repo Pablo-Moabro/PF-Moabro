@@ -31,7 +31,7 @@ body{
     justify-content: center;
     padding: 10px;
     text-decoration: underline;
-    font-style: italic;
+    font-family: "Montserrat", sans-serif;
 }
 
 .cerveza_alquiler{
@@ -43,12 +43,15 @@ body{
 .cerveza_alquiler h2{
     text-align: center;
     padding: 10px;
-    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
 }
 
 .cerveza_alquiler p{
     padding: 0 10px;
     font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
 }
 .footer{
     display: flex;
@@ -72,7 +75,8 @@ body{
 .locales-title{
     text-align: center;
     padding: 20px;
-    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
 }
 
 .main-locales{
@@ -97,6 +101,12 @@ body{
 
 .text-locales h2{
     padding: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-locales h3{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
 }
 
 .grid-container{
