@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/transparente2.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="img/transparente2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Birra56</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <img src="./img/transparente3-800px.png" alt="logonav" class="logonav">
-                </li>
-                <li> 
-                    <a href="./pages/cervezas.html">Cervezas</a>
-                </li>
-                <li>
-                  <a href="./pages/locales.html">Locales</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html">Contacto</a> 
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/transparente3-800px.png" alt="logonav" height="70px">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>        
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="pages/cervezas.html">Cervezas</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="pages/locales.html">Locales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html">Contacto</a> 
+                            </li>
+                        </ul>
+                    </div>    
+            </div>    
         </nav>
     </header>
     <section class="logo">
-        <img src="./img/transparente2.png" alt="logogrande" class="logogrande">
+        <img src="img/transparente2.png" alt="logogrande" class="logogrande">
     </section>
     <div class="cerveza_h1">
         <h1>Descubri el mundo de la cerveza artesanal</h1>
@@ -55,6 +63,6 @@
             </ul>
             <p> 2024 todos los derechos reservados</p>
     </footer>
-    
+<script src="js/bootstrap.bundle.min.js"></script> 
 </body>
 </html>
