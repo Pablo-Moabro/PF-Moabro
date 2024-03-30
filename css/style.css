@@ -135,3 +135,62 @@ body{
     justify-content: center;
     padding: 20px;
 }
+
+/* CONTACTO */
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.grid-container-form label, .grid-container-form input{
+    margin: 10px 10px 0 10px;
+}
+
+.grid-container-form textarea{
+    grid-column: 1 / 3;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.grid-container-form button{
+    grid-column: 1 / 3;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid-container-form button:hover{
+    background-color: #0056b3;
+    transition: 300ms;
+}
+
+@media screen and (max-width: 600px) {
+    .grid-container-form {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
