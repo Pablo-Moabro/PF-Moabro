@@ -194,3 +194,39 @@ body{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* NOSOTROS */
+
+/* .nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nosotros h1{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.nosotros h2{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+
+.nosotros p{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    margin: 0 15px 0 15px;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
