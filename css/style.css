@@ -47,7 +47,7 @@ body{
     text-decoration: underline;
 }
 
-.cerveza_alquiler p{
+.cerveza_alquiler h3{
     padding: 0 10px;
     font-weight: 500;
     font-family: "Montserrat", sans-serif;
@@ -76,7 +76,6 @@ body{
     text-align: center;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-    text-decoration: underline;
 }
 
 .main-locales{
@@ -222,7 +221,7 @@ body{
 .nosotros p{
     font-family: "Montserrat", sans-serif;
     font-style: italic;
-    margin: 0 15px 0 15px;
+    margin: 0 15px 15px 15px;
 }
 
 .iframe{
