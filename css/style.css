@@ -9,7 +9,7 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
+    background-color: #fff;
 }
 
 .logo{
@@ -228,4 +228,52 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* CERVEZAS */
+
+.birra h1{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.cards{
+    display: flex;
+}
+
+.card{
+    flex: 50%;
+    margin: 10px;
+    border: 5px solid;
+}
+
+.card__content{
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(red,yellow,lightblue);
+}
+
+.card__content img{
+   max-width: 100%;
+   height: auto;
+}
+
+.card__footer{
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+.card__footer button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #007bff;
+}
+
+.card__footer button:hover{
+    background-color: #0056b3;
+    transition: 300ms;
 }
