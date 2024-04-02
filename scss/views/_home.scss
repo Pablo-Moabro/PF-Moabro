@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    img{
+        max-width: 100%;
+    height: auto;
+    }
+}
+
+.cerveza_h1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.cerveza_alquiler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cerveza_alquiler h2{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.cerveza_alquiler h3{
+    padding: 0 10px;
+    font-weight: 500;
+    font-style: italic;
+}

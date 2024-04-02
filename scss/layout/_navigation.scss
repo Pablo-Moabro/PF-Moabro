@@ -1,0 +1,95 @@
+// LOCALES
+.locales-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.main-locales{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    img{
+        max-width: 100%;
+        height: auto;
+    }    
+}
+
+.text-locales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    h2{
+        padding: 10px; 
+    }
+    h3{
+        font-style: italic; 
+    }
+}
+
+.google-map{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+// NOSOTROS
+
+.nosotros{
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;  
+    }
+    p{
+        font-style: italic;
+        margin: 0 15px 15px 15px;
+    }
+
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// CERVEZA
+
+.birra h1{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    flex: 50%;
+    margin: 10px;
+    border: 5px solid;
+    &__content{
+        flex-grow: 1;
+        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(red,yellow,lightblue);
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    &__footer{
+        background-color: lightblue;
+        padding: 10px;
+        text-align: center;
+    }
+}

@@ -1,3 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #101A24;
+}
+
+p, a, li, span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  color: #5C6574;
+  font-size: 16px;
+}
+
+.grid-container-form button {
+  grid-column: 1/3;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-container-form button:hover {
+  background-color: #0056b3;
+  transition: 300ms;
+}
+
+.card__footer button {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #007bff;
+}
+
+.card__footer button:hover {
+  background-color: #0056b3;
+  transition: 300ms;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cerveza_h1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.cerveza_alquiler {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cerveza_alquiler h2 {
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.cerveza_alquiler h3 {
+  padding: 0 10px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.grid-container-form label {
+  margin: 10px 10px 0 10px;
+}
+.grid-container-form input {
+  margin: 10px 10px 0 10px;
+}
+.grid-container-form textarea {
+  grid-column: 1/3;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.locales-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-locales {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+}
+.main-locales img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-locales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.text-locales h2 {
+  padding: 10px;
+}
+.text-locales h3 {
+  font-style: italic;
+}
+
+.google-map {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.nosotros h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.nosotros h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nosotros p {
+  font-style: italic;
+  margin: 0 15px 15px 15px;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.birra h1 {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex: 50%;
+  margin: 10px;
+  border: 5px solid;
+}
+.card__content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(red, yellow, lightblue);
+}
+.card__content img {
+  max-width: 100%;
+  height: auto;
+}
+.card__footer {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+}
+.grid-item img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  height: 75px;
+  padding: 0 20px 0 0;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container-form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

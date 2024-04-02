@@ -196,13 +196,6 @@ body{
 
 /* NOSOTROS */
 
-/* .nosotros{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
 .nosotros h1{
     font-family: "Montserrat", sans-serif;
     text-align: center;
