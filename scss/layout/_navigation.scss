@@ -2,6 +2,9 @@
 .locales-title{
     text-align: center;
     padding: 20px;
+    font-size: 50px;
+    background-color: black;
+    margin: 0;
 }
 
 .main-locales{
@@ -12,6 +15,7 @@
     img{
         max-width: 100%;
         height: auto;
+        
     }    
 }
 
@@ -20,7 +24,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    margin-bottom: 10px;
+    background-image: url(../img/fondo2.jpg);
     h2{
         padding: 10px; 
     }
@@ -29,10 +33,15 @@
     }
 }
 
+.grid-container{
+    background-image: url(../img/fondo2.jpg);
+}
+
 .google-map{
     display: flex;
     justify-content: center;
     padding: 20px;
+    background-color: black;
 }
 // NOSOTROS
 
@@ -41,6 +50,7 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
+        font-size: 50px;
     }
     h2{
         text-align: center;
@@ -62,8 +72,16 @@
 
 // CERVEZA
 
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
 .birra h1{
     text-align: center;
+    padding: 25px;
+    font-size: 50px;
 }
 
 .cards{
@@ -81,7 +99,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(red,yellow,lightblue);
+        background-image: linear-gradient(lightblue, red, yellow, lightblue);
         img{
             max-width: 100%;
             height: auto;

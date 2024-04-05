@@ -17,3 +17,10 @@
     max-width: 400px;
     }
 }
+
+// CERVEZAS
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

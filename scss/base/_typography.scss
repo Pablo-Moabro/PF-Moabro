@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Reddit Mono", monospace;
     font-weight: 700;
     color: $color-text;
   }
@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 {
   p, a, li, span {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    color: $color-text-secondary;
   }
   
   p {
