@@ -91,41 +91,44 @@ header {
   padding: 10px 10px;
 }
 
-.contacto {
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.birra h1 {
+  text-align: center;
+  padding: 25px;
+  font-size: 50px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex: 50%;
+  margin: 10px;
+  border: 5px solid;
+}
+.card__content {
+  flex-grow: 1;
+  flex-shrink: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  background-image: linear-gradient(lightblue, red, yellow, lightblue);
 }
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card__content img {
+  max-width: 100%;
+  height: auto;
 }
-
-.grid-container-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  border: 1px solid;
-  border-radius: 8px;
-}
-.grid-container-form label {
-  margin: 10px 10px 0 10px;
-  color: white;
-}
-.grid-container-form input {
-  margin: 10px 10px 0 10px;
-}
-.grid-container-form textarea {
-  grid-column: 1/3;
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  margin-bottom: 10px;
+.card__footer {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
 }
 
 .locales-title {
@@ -194,44 +197,41 @@ header {
   align-items: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-}
-
-.birra h1 {
-  text-align: center;
-  padding: 25px;
-  font-size: 50px;
-}
-
-.cards {
-  display: flex;
-}
-
-.card {
-  flex: 50%;
-  margin: 10px;
-  border: 5px solid;
-}
-.card__content {
-  flex-grow: 1;
-  flex-shrink: 1;
+.contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(lightblue, red, yellow, lightblue);
+  padding: 20px;
 }
-.card__content img {
-  max-width: 100%;
-  height: auto;
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.card__footer {
-  background-color: lightblue;
-  padding: 10px;
-  text-align: center;
+
+.grid-container-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+.grid-container-form label {
+  margin: 10px 10px 0 10px;
+  color: white;
+}
+.grid-container-form input {
+  margin: 10px 10px 0 10px;
+}
+.grid-container-form textarea {
+  grid-column: 1/3;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .grid-container {
@@ -261,15 +261,17 @@ main {
 
 .footer {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  height: 75px;
-  padding: 0 20px 0 0;
+  padding: 20px;
   background-image: url(../img/fondo2.jpg);
 }
 .footer ul {
   list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 .footer ul li a {
   text-decoration: none;
