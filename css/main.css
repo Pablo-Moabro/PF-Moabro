@@ -10,15 +10,16 @@ h1, h2, h3, h4, h5, h6 {
   color: #fbebeb;
 }
 
-p, a, li, span {
+a, li, span {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #3507dc;
 }
 
 p {
-  color: #3507dc;
+  color: #fbebeb;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .grid-container-form button {
@@ -188,13 +189,16 @@ main {
 }
 .nosotros p {
   font-style: italic;
-  margin: 0 15px 15px 15px;
+  padding: 15px 15px;
+  margin: 0 0;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
 
 .iframe {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .contacto {
@@ -209,6 +213,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
 }
 
 .grid-container-form {

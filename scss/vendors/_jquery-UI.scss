@@ -9,7 +9,6 @@
     .cards{
         grid-template-columns: repeat(2, 1fr);
     }
-    
 }
 
 @media screen and (max-width: 650px){
@@ -18,6 +17,7 @@
     }
 }
 
+// FOOTER
 @media screen and (max-width: 1024px){
     .footer{
         display: flex;
