@@ -299,6 +299,10 @@ main {
   border-color: white;
 }
 
+.navbar-brand img {
+  max-width: 100%;
+  height: 70px;
+}
 .navbar-brand img:hover {
   transform: scale(1.2);
 }
