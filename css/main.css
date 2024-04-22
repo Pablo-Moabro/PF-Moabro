@@ -87,7 +87,7 @@ header {
   background-image: url(../img/fondo2.jpg);
   background-size: cover;
 }
-.cerveza_alquiler h2, .cerveza_alquiler h3 {
+.cerveza_alquiler h2, .cerveza_alquiler p {
   text-align: center;
   padding: 10px 10px;
 }
@@ -161,8 +161,9 @@ main {
 .text-locales h2 {
   padding: 10px;
 }
-.text-locales h3 {
+.text-locales p {
   font-style: italic;
+  font-size: 25px;
 }
 
 .grid-container {
