@@ -36,8 +36,13 @@ header{
     justify-content: center;
     background-image: url(../img/fondo2.jpg);
     background-size: cover;
-    h2,p{
+    h2{
         text-align: center;
         padding: 10px 10px;
+    }
+    p{
+        text-align: center;
+        padding: 10px 10px;
+        font-size: 25px;
     }
 }

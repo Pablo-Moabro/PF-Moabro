@@ -87,9 +87,14 @@ header {
   background-image: url(../img/fondo2.jpg);
   background-size: cover;
 }
-.cerveza_alquiler h2, .cerveza_alquiler p {
+.cerveza_alquiler h2 {
   text-align: center;
   padding: 10px 10px;
+}
+.cerveza_alquiler p {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 25px;
 }
 
 main {
